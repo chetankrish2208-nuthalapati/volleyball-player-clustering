@@ -54,13 +54,24 @@ The workflow follows the general structure:
 
 `File → Select Columns → K-Means → Data Table / Scatter Plot`
 
+
+
 ## Results
 
-The K-Means algorithm grouped the players into clusters based on similarities in their attacking statistics.
+K-Means clustering was tested using different numbers of clusters to explore how the volleyball attackers could be grouped.
 
-The scatter plots provide a visual representation of the resulting groups.
+The cluster sizes obtained were:
 
-The characteristics of each cluster were interpreted from the statistical patterns in the dataset rather than being assigned beforehand.
+| Number of Clusters | Cluster Sizes  |
+| ------------------ | -------------- |
+| K = 2              | 44, 188        |
+| K = 3              | 72, 44, 116    |
+| K = 4              | 83, 26, 62, 61 |
+
+The K = 4 configuration was also visualized using Scatter Plot to examine the relationship between attack points, total attacks, and attack success percentage.
+
+The resulting clusters represent groups of players with similar attacking statistical characteristics. The cluster labels were interpreted based on the patterns observed in the attacking statistics rather than being predefined.
+
 
 ## Key Learning
 
