@@ -56,6 +56,8 @@ The workflow follows the general structure:
 
 
 
+
+
 ## Results
 
 K-Means clustering was tested using different numbers of clusters to explore how the volleyball attackers could be grouped.
@@ -68,9 +70,12 @@ The cluster sizes obtained were:
 | K = 3              | 72, 44, 116    |
 | K = 4              | 83, 26, 62, 61 |
 
-The K = 4 configuration was also visualized using Scatter Plot to examine the relationship between attack points, total attacks, and attack success percentage.
+The K = 4 configuration was visualized using Scatter Plot to examine relationships between attack points, total attacks, and attack success percentage.
 
-The resulting clusters represent groups of players with similar attacking statistical characteristics. The cluster labels were interpreted based on the patterns observed in the attacking statistics rather than being predefined.
+The resulting clusters represent groups of players with similar attacking statistical characteristics. The cluster numbers are algorithm-generated labels and do not represent predefined player roles.
+
+The analysis demonstrates how K-Means clustering can be used to identify patterns and group players based on their attacking performance statistics.
+
 
 
 ## Key Learning
