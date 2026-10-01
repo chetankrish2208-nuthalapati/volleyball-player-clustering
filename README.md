@@ -91,8 +91,13 @@ The clusters are based only on the attacking statistics included in the dataset.
 
 ## Dataset Source
 
-VNL 2024 - Men's Volleyball Stats — Kaggle.
 
-The original Kaggle dataset page is the source of the dataset used in this project.
+
+**VNL 2024 - Men's Volleyball Stats** — Kaggle.
+
+The dataset was obtained from Kaggle and contains men's Volleyball Nations League statistics from 2024.
+
+[Original Kaggle dataset](https://www.kaggle.com/datasets/jonathanpmoyer/vnl-2024-mens-stats)
+
 
 
